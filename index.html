@@ -17,6 +17,9 @@
             <ul v-if='mailArray.length == 10'>
                 <li v-for="(mail, index) in mailArray">{{ mailArray[index] }}</li>
             </ul>
+            <div v-else>
+                Loading...
+            </div>
     </div>
 
     <script type="text/javascript" src="js/script.js"></script>
